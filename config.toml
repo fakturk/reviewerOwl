@@ -1,0 +1,7 @@
+﻿theme = "stack"
+
+[sidebar.avatar]
+enabled = true
+local = true
+src = "images/owlreviewr-logo.png"
+
