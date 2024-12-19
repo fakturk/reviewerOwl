@@ -4,7 +4,7 @@ title: Reviewer Owl
 services:
     # GA Tracking ID
     googleAnalytics:
-        id:G-GLMX68KSDS
+        id: G-GLMX68KSDS
 
 pagination:
     pagerSize: 3
