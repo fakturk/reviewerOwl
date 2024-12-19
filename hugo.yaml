@@ -1,5 +1,5 @@
-theme: hugo-theme-stack
-title: Example Site
+theme: stack
+title: Reviewer Owl
 
 params:
     mainSections:
