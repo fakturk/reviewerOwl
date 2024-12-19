@@ -1,14 +1,10 @@
-
 +++
-title: "This Is My First Post"
-author: ""
-type: ""
-date: 2023-09-05T11:05:21+02:00
-subtitle: ""
-image: ""
-tags: []
+title = 'My First Post'
+date = 2024-01-14T07:07:07+01:00
+draft = false
 +++
+## Introduction
 
-Hi all, 
+This is **bold** text, and this is *emphasized* text.
 
-This is my first post.
+Visit the [Hugo](https://gohugo.io) website!
