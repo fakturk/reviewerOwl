@@ -1,9 +1,16 @@
 theme: stack
 title: Reviewer Owl
 
+pagination:
+    pagerSize: 3
+
+permalinks:
+    post: /p/:slug/
+    page: /:slug/
+    
 params:
     mainSections:
-        - post
+        - posts
 
 sidebar:
         emoji: 🍥
@@ -23,13 +30,13 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/fakturk/reviewerOwl
           params:
               icon: brand-github
 
         - identifier: twitter
           name: Twitter
-          url: https://twitter.com
+          url: https://twitter.com/fakturk
           params:
               icon: brand-twitter
 
