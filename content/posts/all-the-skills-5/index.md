@@ -1,6 +1,6 @@
 ---
 title: "All the Skills #5 Review: A Deck-Building Masterpiece With Pacing Flaws"
-date: 2025-05-15
+date: 2025-05-14
 draft: false
 tags: ["litrpg", "deckbuilding", "dragon-riders", "progression-fantasy"]
 affiliateLink: "https://amzn.to/3YMUc18"
