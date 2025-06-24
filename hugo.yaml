@@ -18,8 +18,8 @@ params:
         - posts
 
 sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 🦉
+        subtitle: Reviewer Owl.
         avatar:
             enabled: true
             local: true
@@ -41,9 +41,15 @@ menu:
 
         - identifier: twitter
           name: Twitter
-          url: https://twitter.com/fakturk
+          url: https://twitter.com/reviewerowl
           params:
               icon: brand-twitter
+              
+        - identifier: instagram
+          name: Instagram
+          url: https://www.instagram.com/reviewerowl/
+          params:
+              icon: brand-instagram
 
 related:
     includeNewer: true
