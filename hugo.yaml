@@ -49,7 +49,7 @@ menu:
           name: Instagram
           url: https://www.instagram.com/reviewerowl/
           params:
-              icon: brand-instagram
+              icon: link
 
 related:
     includeNewer: true
