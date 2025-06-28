@@ -5,7 +5,7 @@ favicon = "/favicon.png"
 
 # Branding
 [sidebar]
-  emoji = "🦉"
+  # emoji = "🦉"
   subtitle = "Honest Reviews for Books, Food & Beyond"
   [sidebar.avatar]
     enabled = true
@@ -56,18 +56,30 @@ favicon = "/favicon.png"
   customText = "🦉 Wise reviews for discerning readers (and eaters!)"
 
 # Homepage Widgets (updated)
+## Widgets
 [[widgets.homepage]]
-  type = "search"
+type = "search"
 
 [[widgets.homepage]]
-  type = "section-toc"  # NEW: Shows sections (Books/LitRPG)
-  [widgets.homepage.params]
-    depth = 2
+type = "archives"
+
+[widgets.homepage.params]
+limit = 5
 
 [[widgets.homepage]]
-  type = "recent"
-  [widgets.homepage.params]
-    limit = 5
+type = "categories"
+
+[widgets.homepage.params]
+limit = 10
+
+[[widgets.homepage]]
+type = "tag-cloud"
+
+[widgets.homepage.params]
+limit = 10
+
+[[widgets.page]]
+type = "toc"
 
 # OpenGraph/Twitter Cards (unchanged)
 [opengraph.twitter]
