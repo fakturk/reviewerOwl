@@ -11,7 +11,22 @@ favicon = "/favicon.png"
     enabled = true
     local = true
     src = "img/avatar.png"
+    
+# Add this section to control menu behavior
+[menu]
+  mainWeight = 100  # Base weight for main menu items
+  socialWeight = 200 # Base weight for social menu items
 
+# Update your sidebar widgets configuration
+[sidebar]
+  widgets = ["search", "archives", "categories", "tag-cloud"]  # Exact order you want
+  [sidebar.widgetsConfig]
+    [sidebar.widgetsConfig.archives]
+      limit = 5
+    [sidebar.widgetsConfig.categories]
+      limit = 10
+    [sidebar.widgetsConfig.tag-cloud]
+      limit = 10
 
 # Content Display
 [article]
