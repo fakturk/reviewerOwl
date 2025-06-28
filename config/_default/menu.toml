@@ -32,7 +32,7 @@
   weight = 150
   [main.params]
     class = "button"
-    icon = "mail"  # Add an icon from Tabler Icons
+    # icon = "mail"  # Add an icon from Tabler Icons
 
 # Social Menu (unchanged)
 [[social]]
