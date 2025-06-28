@@ -2,19 +2,19 @@
 [[main]]
   identifier = "books"
   name = "📚 Books"
-  url = "/books/"
+  url = "/categories/books/"
   weight = 110  # 100 (base) + 10
 
 [[main]]
   identifier = "litrpg"
   name = "🎮 LitRPG"
-  url = "/litrpg/"
+  url = "/categories/litrpg/"
   weight = 120
 
 [[main]]
   identifier = "restaurants"
   name = "🍽️ Restaurants"
-  url = "/restaurants/"
+  url = "/categories/restaurants/"
   weight = 130
   [main.params]
     disabled = true
