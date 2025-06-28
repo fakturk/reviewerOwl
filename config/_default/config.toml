@@ -1,0 +1,51 @@
+baseURL = "https://reviewerowl.com/"  # Update with your domain
+languageCode = "en-us"
+title = "Reviewer Owl"
+theme = "stack"
+defaultContentLanguage = "en"
+hasCJKLanguage = false
+
+# Services
+[services]
+  [services.googleAnalytics]
+    id = "G-GLMX68KSDS"  # Your GA4 ID
+
+# Content settings
+[content]
+  [content.snippets]
+    wordCount = 280  # For summary generation
+
+# Pagination
+[pagination]
+  pagerSize = 3  # Matches your YAML config
+
+# Permalinks (clean URLs)
+[permalinks]
+  post = "/p/:slug/"
+  page = "/:slug/"
+
+# Markdown processing
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [ ["\\[", "\\]"], ["$$", "$$"] ]
+          inline = [ ["\\(", "\\)"] ]
+    [markup.goldmark.renderer]
+      unsafe = true  # Allows HTML in Markdown
+
+  [markup.highlight]
+    codeFences = true
+    lineNos = true
+    lineNumbersInTable = true
+    tabWidth = 4
+
+# Build optimizations
+[build]
+  useResourceCacheWhen = "fallback"
+  writeStats = true  # Helps with debugging
+
+[outputs]
+  home = ["HTML", "RSS"]  # Basic output formats
