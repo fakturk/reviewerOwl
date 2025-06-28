@@ -1,0 +1,68 @@
+# Core Settings
+mainSections = ["post"]  # Shows posts on homepage
+rssFullContent = true
+favicon = "/favicon.png"
+
+# Branding
+[sidebar]
+  emoji = "🦉"  # Owl emoji for consistency
+  subtitle = "Honest Reviews for Books, Food & Beyond"
+  [sidebar.avatar]
+    enabled = true
+    local = true
+    src = "img/avatar.png"  # Ensure this matches your owl-themed image
+
+# Content Display
+[article]
+  headingAnchor = false  # Disable if you don't need section links
+  math = false          # Enable if reviewing technical books
+  readingTime = true    # Useful for long reviews
+  [article.license]
+    enabled = true
+    default = "Licensed under CC BY-NC-SA 4.0"
+
+# Date Formatting
+[dateFormat]
+  published = "Jan 02, 2006"
+  lastUpdated = "Jan 02, 2006 15:04 MST"
+
+# Footer
+[footer]
+  since = 2024  # Update to your start year
+  customText = "🦉 Screech with us on social media!"
+
+# Homepage Widgets (Simplified for Reviews)
+[[widgets.homepage]]
+  type = "search"  # Helps users find specific reviews
+
+[[widgets.homepage]]
+  type = "categories"
+  [widgets.homepage.params]
+    limit = 5      # Show top 5 categories (e.g., LitRPG, Restaurants)
+
+[[widgets.homepage]]
+  type = "recent"
+  [widgets.homepage.params]
+    limit = 5      # Show 5 latest reviews
+
+# OpenGraph/Twitter Cards (For Sharing)
+[opengraph.twitter]
+  card = "summary_large_image"
+
+# Default Image when sharing
+[defaultImage.opengraph]
+  enabled = true
+  local = true
+  src = "img/og-default.jpg"  # Create an owl-themed default share image
+
+# Color Scheme
+[colorScheme]
+  toggle = true    # Allows dark/light mode
+  default = "auto" # Follows system preference
+
+# Image Processing (Optimization)
+[imageProcessing]
+  [imageProcessing.cover]
+    enabled = true  # Optimizes review cover images
+  [imageProcessing.content]
+    enabled = true  # Optimizes in-content images
