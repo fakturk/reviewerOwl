@@ -1,19 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title></title>
-    <link>//localhost:1313/</link>
-    <description>Recent content on </description>
-    <generator>Hugo</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 05 Sep 2023 11:05:21 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <title>Reviewer Owl |             The Wise Reviewer</title>
+    <link>https://reviewerowl.com/</link>
+    <description>Recent content on Reviewer Owl |             The Wise Reviewer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 14 May 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://reviewerowl.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>This Is My First Post</title>
-      <link>//localhost:1313/posts/my-first-post/</link>
-      <pubDate>Tue, 05 Sep 2023 11:05:21 +0200</pubDate>
-      <guid>//localhost:1313/posts/my-first-post/</guid>
-      <description>&lt;p&gt;Hi all,&lt;/p&gt;&#xA;&lt;p&gt;This is my first post.&lt;/p&gt;</description>
+      <title>All the Skills #5 Review: A Deck-Building Masterpiece With Pacing Flaws</title>
+      <link>https://reviewerowl.com/p/all-the-skills-#5-review-a-deck-building-masterpiece-with-pacing-flaws/</link>
+      <pubDate>Wed, 14 May 2025 00:00:00 +0000</pubDate>
+      <guid>https://reviewerowl.com/p/all-the-skills-#5-review-a-deck-building-masterpiece-with-pacing-flaws/</guid>
+      <description>Rating: ⭐️⭐️⭐️⭐️☆ (4.5/5)&#xA;Verdict: &amp;ldquo;The card system and dragon lore shine, but uneven pacing holds it back from perfection.&amp;rdquo;&#xA;📖 Summary Story starts with seeking another card for Brixby’s legendary deck. For searching this new card, our group travelled to another hive (Blood Moon Hive) in the kingdom (let’s not forget they’re currently outside the kingdom). They found an illusion card to show their ranks one rank lower (legendary → rare, rare → uncommon) and infiltrate Blood Moon Hive to find the card.</description>
+    </item>
+    <item>
+      <title>Archives</title>
+      <link>https://reviewerowl.com/archives/</link>
+      <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://reviewerowl.com/archives/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>About</title>
+      <link>https://reviewerowl.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://reviewerowl.com/about/</guid>
+      <description>Welcome to Reviewer Owl!&#xA;We&amp;rsquo;re dedicated to honest reviews for books, food, and beyond.&#xA;Follow us for updates and more:&#xA;Instagram Twitter </description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>https://reviewerowl.com/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://reviewerowl.com/contact/</guid>
+      <description>Have a question or want to submit a review request?&#xA;You can reach us at hi@reviewerowl.com.</description>
+    </item>
+    <item>
+      <title>Search</title>
+      <link>https://reviewerowl.com/search/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://reviewerowl.com/search/</guid>
+      <description></description>
     </item>
   </channel>
 </rss>
