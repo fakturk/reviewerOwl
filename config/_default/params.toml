@@ -49,16 +49,6 @@ favicon = "/favicon.png"
 # Note: These are kept for backward compatibility but won't be used
 # since we've moved widgets to the sidebar section above
 
-# OpenGraph/Twitter Cards
-[opengraph.twitter]
-  card = "summary_large_image"
-
-# Default Image
-[defaultImage.opengraph]
-  enabled = true
-  local = true
-  src = "img/og-default.jpg"
-
 # UI Settings
 [colorScheme]
   toggle = true
