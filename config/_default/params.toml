@@ -3,23 +3,16 @@ mainSections = ["posts"]
 rssFullContent = true
 favicon = "/favicon.png"
 
-# Branding
+# Branding & Display
 [sidebar]
-  # emoji = "🦉"
   subtitle = "Honest Reviews for Books, Food & Beyond"
   [sidebar.avatar]
     enabled = true
     local = true
     src = "img/avatar.png"
-    
-# Add this section to control menu behavior
-[menu]
-  mainWeight = 100  # Base weight for main menu items
-  socialWeight = 200 # Base weight for social menu items
-
-# Update your sidebar widgets configuration
-[sidebar]
-  widgets = ["search", "archives", "categories", "tag-cloud"]  # Exact order you want
+  
+  # Widgets Configuration (Moved from homepage widgets)
+  widgets = ["search", "archives", "categories", "tag-cloud"]
   [sidebar.widgetsConfig]
     [sidebar.widgetsConfig.archives]
       limit = 5
@@ -28,7 +21,12 @@ favicon = "/favicon.png"
     [sidebar.widgetsConfig.tag-cloud]
       limit = 10
 
-# Content Display
+# Menu Configuration
+[menu]
+  mainWeight = 100  # Base weight for main menu items
+  socialWeight = 200 # Base weight for social menu items
+
+# Content Settings
 [article]
   headingAnchor = false
   math = false
@@ -37,53 +35,36 @@ favicon = "/favicon.png"
     enabled = true
     default = "Licensed under CC BY-NC-SA 4.0"
 
-# Date Formatting (unchanged)
+# Date Formatting
 [dateFormat]
   published = "Jan 02, 2006"
   lastUpdated = "Jan 02, 2006 15:04 MST"
 
-# Footer (updated)
+# Footer
 [footer]
   since = 2024
   customText = "🦉 Wise reviews for discerning readers (and eaters!)"
 
-# Homepage Widgets (updated)
-## Widgets
-[[widgets.homepage]]
-type = "search"
+# Homepage Widgets (Deprecated - moved to sidebar)
+# Note: These are kept for backward compatibility but won't be used
+# since we've moved widgets to the sidebar section above
 
-[[widgets.homepage]]
-type = "archives"
-
-[widgets.homepage.params]
-limit = 5
-
-[[widgets.homepage]]
-type = "categories"
-
-[widgets.homepage.params]
-limit = 10
-
-[[widgets.homepage]]
-type = "tag-cloud"
-
-[widgets.homepage.params]
-limit = 10
-
-[[widgets.page]]
-type = "toc"
-
-# OpenGraph/Twitter Cards (unchanged)
+# OpenGraph/Twitter Cards
 [opengraph.twitter]
   card = "summary_large_image"
 
+# Default Image
+[defaultImage.opengraph]
+  enabled = true
+  local = true
+  src = "img/og-default.jpg"
 
-# Color Scheme (unchanged)
+# UI Settings
 [colorScheme]
   toggle = true
   default = "auto"
 
-# Image Processing (unchanged)
+# Image Processing
 [imageProcessing]
   [imageProcessing.cover]
     enabled = true
