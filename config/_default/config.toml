@@ -1,6 +1,6 @@
 baseURL = "https://reviewerowl.com/"  # Update with your domain
 languageCode = "en-us"
-title = "Reviewer Owl | The Wise Reviewer"
+title = "Reviewer Owl |             The Wise Reviewer"
 subtitle = "The Wise Reviewer"
 theme = "stack"
 defaultContentLanguage = "en"
