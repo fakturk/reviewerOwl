@@ -1,68 +1,91 @@
 # Core Settings
-mainSections = ["post"]  # Shows posts on homepage
+mainSections = ["post"]
 rssFullContent = true
 favicon = "/favicon.png"
 
 # Branding
 [sidebar]
-  emoji = "🦉"  # Owl emoji for consistency
+  emoji = "🦉"
   subtitle = "Honest Reviews for Books, Food & Beyond"
   [sidebar.avatar]
     enabled = true
     local = true
-    src = "img/avatar.png"  # Ensure this matches your owl-themed image
+    src = "img/avatar.png"
+
+# Menu Configuration (NEW SECTION)
+[menu]
+  # Enable auto-generation of menu items from content sections
+  auto = true
+  # Manual menu items (complementary to auto-generated ones)
+  [[menu.main]]
+    name = "📚 All Reviews"
+    url = "/reviews/"
+    weight = 1
+  [[menu.main]]
+    name = "🎮 LitRPG"
+    url = "/categories/litrpg/"
+    weight = 2
+  [[menu.main]]
+    name = "🍽️ Restaurants"
+    url = "/restaurants/"
+    weight = 3
+    [menu.main.params]
+      disabled = true  # Hide until ready
+  [[menu.main]]
+    name = "🦉 About"
+    url = "/about/"
+    weight = 10
 
 # Content Display
 [article]
-  headingAnchor = false  # Disable if you don't need section links
-  math = false          # Enable if reviewing technical books
-  readingTime = true    # Useful for long reviews
+  headingAnchor = false
+  math = false
+  readingTime = true
   [article.license]
     enabled = true
     default = "Licensed under CC BY-NC-SA 4.0"
 
-# Date Formatting
+# Date Formatting (unchanged)
 [dateFormat]
   published = "Jan 02, 2006"
   lastUpdated = "Jan 02, 2006 15:04 MST"
 
-# Footer
+# Footer (updated)
 [footer]
-  since = 2024  # Update to your start year
-  customText = "🦉 Screech with us on social media!"
+  since = 2024
+  customText = "🦉 Wise reviews for discerning readers (and eaters!)"
 
-# Homepage Widgets (Simplified for Reviews)
+# Homepage Widgets (updated)
 [[widgets.homepage]]
-  type = "search"  # Helps users find specific reviews
+  type = "search"
 
 [[widgets.homepage]]
-  type = "categories"
+  type = "section-toc"  # NEW: Shows sections (Books/LitRPG)
   [widgets.homepage.params]
-    limit = 5      # Show top 5 categories (e.g., LitRPG, Restaurants)
+    depth = 2
 
 [[widgets.homepage]]
   type = "recent"
   [widgets.homepage.params]
-    limit = 5      # Show 5 latest reviews
+    limit = 5
 
-# OpenGraph/Twitter Cards (For Sharing)
+# OpenGraph/Twitter Cards (unchanged)
 [opengraph.twitter]
   card = "summary_large_image"
 
-# Default Image when sharing
 [defaultImage.opengraph]
   enabled = true
   local = true
-  src = "img/og-default.jpg"  # Create an owl-themed default share image
+  src = "img/og-default.jpg"
 
-# Color Scheme
+# Color Scheme (unchanged)
 [colorScheme]
-  toggle = true    # Allows dark/light mode
-  default = "auto" # Follows system preference
+  toggle = true
+  default = "auto"
 
-# Image Processing (Optimization)
+# Image Processing (unchanged)
 [imageProcessing]
   [imageProcessing.cover]
-    enabled = true  # Optimizes review cover images
+    enabled = true
   [imageProcessing.content]
-    enabled = true  # Optimizes in-content images
+    enabled = true
