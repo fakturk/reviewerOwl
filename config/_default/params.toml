@@ -10,16 +10,6 @@ favicon = "/favicon.png"
     enabled = true
     local = true
     src = "img/avatar.png"
-  
-  # Widgets Configuration (Moved from homepage widgets)
-  widgets = ["search", "archives", "categories", "tag-cloud"]
-  [sidebar.widgetsConfig]
-    [sidebar.widgetsConfig.archives]
-      limit = 5
-    [sidebar.widgetsConfig.categories]
-      limit = 10
-    [sidebar.widgetsConfig.tag-cloud]
-      limit = 10
 
 # Menu Configuration
 [menu]
