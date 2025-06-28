@@ -12,29 +12,6 @@ favicon = "/favicon.png"
     local = true
     src = "img/avatar.png"
 
-# Menu Configuration (NEW SECTION)
-[menu]
-  # Enable auto-generation of menu items from content sections
-  auto = true
-  # Manual menu items (complementary to auto-generated ones)
-  [[menu.main]]
-    name = "📚 All Reviews"
-    url = "/reviews/"
-    weight = 1
-  [[menu.main]]
-    name = "🎮 LitRPG"
-    url = "/categories/litrpg/"
-    weight = 2
-  [[menu.main]]
-    name = "🍽️ Restaurants"
-    url = "/restaurants/"
-    weight = 3
-    [menu.main.params]
-      disabled = true  # Hide until ready
-  [[menu.main]]
-    name = "🦉 About"
-    url = "/about/"
-    weight = 10
 
 # Content Display
 [article]
