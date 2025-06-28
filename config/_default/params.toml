@@ -73,10 +73,6 @@ favicon = "/favicon.png"
 [opengraph.twitter]
   card = "summary_large_image"
 
-[defaultImage.opengraph]
-  enabled = true
-  local = true
-  src = "img/og-default.jpg"
 
 # Color Scheme (unchanged)
 [colorScheme]
