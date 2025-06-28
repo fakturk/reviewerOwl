@@ -2,6 +2,8 @@
 title: "All the Skills #5 Review: A Deck-Building Masterpiece With Pacing Flaws"
 date: 2025-05-14
 draft: false
+type: "review"  # New: Helps Hugo identify review content
+categories: ["books", "litrpg"]  # New: Links to your menu sections
 tags: ["litrpg", "deckbuilding", "dragon-riders", "progression-fantasy"]
 affiliateLink: "https://amzn.to/3YMUc18"
 goodreadsLink: "https://www.goodreads.com/book/show/223536115-all-the-skills-5"
