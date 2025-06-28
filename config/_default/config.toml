@@ -25,7 +25,3 @@ googleAnalytics = "G-GLMX68KSDS"  # Your GA4 ID
 
 [outputs]
   home = ["HTML", "RSS"]  # Basic output formats
-
-  # Disqus comments
-disqusShortname = "reviewerowl"
-
