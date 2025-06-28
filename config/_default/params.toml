@@ -45,9 +45,31 @@ favicon = "/favicon.png"
   since = 2024
   customText = "🦉 Wise reviews for discerning readers (and eaters!)"
 
-# Homepage Widgets (Deprecated - moved to sidebar)
-# Note: These are kept for backward compatibility but won't be used
-# since we've moved widgets to the sidebar section above
+# Homepage Widgets 
+## Widgets
+[[widgets.homepage]]
+type = "search"
+
+[[widgets.homepage]]
+type = "archives"
+
+[widgets.homepage.params]
+limit = 5
+
+[[widgets.homepage]]
+type = "categories"
+
+[widgets.homepage.params]
+limit = 10
+
+[[widgets.homepage]]
+type = "tag-cloud"
+
+[widgets.homepage.params]
+limit = 10Add commentMore actions
+
+[[widgets.page]]
+type = "toc"
 
 # UI Settings
 [colorScheme]
