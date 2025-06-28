@@ -3,36 +3,36 @@
   identifier = "books"
   name = "📚 Books"
   url = "/books/"
-  weight = 1
+  weight = 110  # 100 (base) + 10
 
 [[main]]
   identifier = "litrpg"
   name = "🎮 LitRPG"
   url = "/litrpg/"
-  weight = 2
+  weight = 120
 
 [[main]]
   identifier = "restaurants"
   name = "🍽️ Restaurants"
   url = "/restaurants/"
-  weight = 3
-  # Disable until you launch restaurant reviews
+  weight = 130
   [main.params]
-    disabled = true  
+    disabled = true
 
 [[main]]
   identifier = "about"
   name = "🦉 About"
   url = "/about/"
-  weight = 4
+  weight = 140
 
 [[main]]
   identifier = "contact"
   name = "💌 Submit a Review Request"
   url = "/contact/"
-  weight = 5
+  weight = 150
   [main.params]
-    class = "button"  # Style as a button
+    class = "button"
+    icon = "mail"  # Add an icon from Tabler Icons
 
 # Social Menu (unchanged)
 [[social]]
