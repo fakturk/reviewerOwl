@@ -1,14 +1,12 @@
 baseURL = "https://reviewerowl.com/"  # Update with your domain
 languageCode = "en-us"
-title = "Reviewer Owl"
+title = "Reviewer Owl | The Wise Reviewer"
 theme = "stack"
 defaultContentLanguage = "en"
 hasCJKLanguage = false
 
-# Services
-[services]
-  [services.googleAnalytics]
-    id = "G-GLMX68KSDS"  # Your GA4 ID
+# Google Analytics
+googleAnalytics = "G-GLMX68KSDS"  # Your GA4 ID
 
 # Content settings
 [content]
@@ -17,30 +15,8 @@ hasCJKLanguage = false
 
 # Pagination
 [pagination]
-  pagerSize = 3  # Matches your YAML config
+  pagerSize = 5  # Matches your YAML config
 
-# Permalinks (clean URLs)
-[permalinks]
-  post = "/p/:slug/"
-  page = "/:slug/"
-
-# Markdown processing
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.passthrough]
-        enable = true
-        [markup.goldmark.extensions.passthrough.delimiters]
-          block = [ ["\\[", "\\]"], ["$$", "$$"] ]
-          inline = [ ["\\(", "\\)"] ]
-    [markup.goldmark.renderer]
-      unsafe = true  # Allows HTML in Markdown
-
-  [markup.highlight]
-    codeFences = true
-    lineNos = true
-    lineNumbersInTable = true
-    tabWidth = 4
 
 # Build optimizations
 [build]
@@ -49,3 +25,7 @@ hasCJKLanguage = false
 
 [outputs]
   home = ["HTML", "RSS"]  # Basic output formats
+
+  # Disqus comments
+disqusShortname = "reviewerowl"
+
