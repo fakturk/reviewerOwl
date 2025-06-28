@@ -1,0 +1,57 @@
+# Main Navigation Menu
+[[main]]
+  identifier = "books"
+  name = "📚 Books"
+  url = "/books/"
+  weight = 1
+
+[[main]]
+  identifier = "litrpg"
+  name = "🎮 LitRPG"
+  url = "/litrpg/"
+  weight = 2
+
+[[main]]
+  identifier = "restaurants"
+  name = "🍽️ Restaurants"
+  url = "/restaurants/"
+  weight = 3
+  # Disable until you launch restaurant reviews
+  [main.params]
+    disabled = true  
+
+[[main]]
+  identifier = "about"
+  name = "🦉 About"
+  url = "/about/"
+  weight = 4
+
+[[main]]
+  identifier = "contact"
+  name = "💌 Submit a Review Request"
+  url = "/contact/"
+  weight = 5
+  [main.params]
+    class = "button"  # Style as a button
+
+# Social Menu (unchanged)
+[[social]]
+  identifier = "github"
+  name = "GitHub"
+  url = "https://github.com/fakturk/reviewerOwl"
+  [social.params]
+    icon = "brand-github"
+
+[[social]]
+  identifier = "twitter"
+  name = "Twitter"
+  url = "https://twitter.com/reviewerowl"
+  [social.params]
+    icon = "brand-twitter"
+
+[[social]]
+  identifier = "instagram"
+  name = "Instagram"
+  url = "https://www.instagram.com/reviewerowl/"
+  [social.params]
+    icon = "link"
