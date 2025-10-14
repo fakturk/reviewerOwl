@@ -7,13 +7,13 @@ categories: ["books", "literary-fiction"]
 tags: ["coming-of-age", "vietnam-war", "1970s", "psychological"]
 affiliateLink: "https://www.amazon.com/Butterfly-Wheel-young-journey-himself/dp/B0BMTBF6L7"
 goodreadsLink: "#"
-image: "butterfly-on-the-wheel-cover.jpg"
+image: "butterfly-arrow.jpg"
 ---
 
-**Rating:** ⭐️⭐️⭐️☆☆ (3.5/5)  
+**Rating:** ⭐️⭐️⭐️☆☆ (3/5)  
 **Verdict:** *"An interesting character study that struggles with pacing and a weak supporting cast."*
 
-[![Butterfly on the Wheel Book Cover](butterfly-on-the-wheel-cover.jpg)](https://www.amazon.com/Butterfly-Wheel-young-journey-himself/dp/B0BMTBF6L7)
+[![Butterfly on the Wheel Book Cover](butterfly-arrow.jpg)](https://www.amazon.com/Butterfly-Wheel-young-journey-himself/dp/B0BMTBF6L7)
 
 ### 📖 Summary
 The story starts with a 20-year-old man deciding to take a bicycle trip from his home to Vancouver, Canada. None of his friends want to go, so he goes alone. This was 1970, and he needed time to think. He's running from a lot: the Vietnam War (his draft number is 63), a recent breakup, and even an affair with his teacher's wife.
@@ -28,7 +28,7 @@ The first half of the book is his physical journey to Vancouver and the memories
 | **World-Building & 70s Vibe** | ⭐️⭐️⭐️☆☆ (3) | You get a sense of the time, but it stays in the background. I wanted to feel the 70s vibe more. |
 | **Supporting Cast & Relationships** | ⭐️⭐️⭐️☆☆ (3.5) | The girlfriends and friends are okay, but they don't feel fully developed. The husband is a simple villain. |
 | **Stakes & Tension** | ⭐️⭐️⭐️☆☆ (3) | The personal stakes are clear, but the big tension doesn't kick in until very late in the book. |
-| **Overall** | ⭐️⭐️⭐️☆☆ (3.5) | A decent character piece, but other areas don't fully support it. |
+| **Overall** | ⭐️⭐️⭐️☆☆ (3) | A decent character piece, but other areas don't fully support it. |
 
 ### ✅ What I Like
 - The main character's voice feels authentic. His confusion about life, love, and the war is the best part of the book.
