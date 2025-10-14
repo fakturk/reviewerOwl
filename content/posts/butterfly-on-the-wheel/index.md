@@ -7,13 +7,13 @@ categories: ["books", "literary-fiction"]
 tags: ["coming-of-age", "vietnam-war", "1970s", "psychological"]
 affiliateLink: "https://www.amazon.com/Butterfly-Wheel-young-journey-himself/dp/B0BMTBF6L7"
 goodreadsLink: "#"
-image: "butterfly-arrow.jpg"
+image: "butterfly-arrow.png"
 ---
 
 **Rating:** ⭐️⭐️⭐️☆☆ (3/5)  
 **Verdict:** *"An interesting character study that struggles with pacing and a weak supporting cast."*
 
-[![Butterfly on the Wheel Book Cover](butterfly-arrow.jpg)](https://www.amazon.com/Butterfly-Wheel-young-journey-himself/dp/B0BMTBF6L7)
+[![Butterfly on the Wheel Book Cover](butterfly-arrow.png)](https://www.amazon.com/Butterfly-Wheel-young-journey-himself/dp/B0BMTBF6L7)
 
 ### 📖 Summary
 The story starts with a 20-year-old man deciding to take a bicycle trip from his home to Vancouver, Canada. None of his friends want to go, so he goes alone. This was 1970, and he needed time to think. He's running from a lot: the Vietnam War (his draft number is 63), a recent breakup, and even an affair with his teacher's wife.
