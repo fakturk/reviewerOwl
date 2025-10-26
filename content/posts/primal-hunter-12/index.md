@@ -6,7 +6,7 @@ type: "review"
 categories: ["books", "litrpg"]
 tags: ["litrpg", "progression-fantasy", "primal-hunter"]
 affiliateLink: "https://amzn.to/48Ofvp0"
-goodreadsLink: "https://www.goodreads.com/book/show/223536116-primal-hunter-12"
+goodreadsLink: "https://www.goodreads.com/book/show/221637570-the-primal-hunter-12"
 levelUpLink: "http://leveluplitrpg.com/book/primal-hunter-12"
 image: primal-hunter-12-cover.png
 ---
